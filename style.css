@@ -47,11 +47,11 @@ section {
     font-weight: 700;
     margin-left: 1rem;
     font-size: 1rem;
+    transition: .15s;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #007bff;
-    transition: .15s;
 }
 
 .title-image {
@@ -115,16 +115,17 @@ section {
 .card {
     margin: 1rem 0;
     background-color: #fafafa;
+    transition: .15s;
 }
 
 .card:hover {
     background-color: #007bff;
+}
+.card-body{
     transition: .15s;
 }
-
 .card-body:hover {
     filter: invert(1);
-    transition: .15s;
 }
 
 .card-title {
