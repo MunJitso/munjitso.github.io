@@ -1,5 +1,11 @@
 * {
     font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    transition: .15s;
 }
 
 .title {
@@ -9,6 +15,7 @@
 .card {
     margin-bottom: 20px;
     transform: scale(0.97);
+    background-color: transparent;
 }
 
 .card-img-top {
@@ -31,7 +38,7 @@
 .fs-5 {
     color: #007bff;
     margin-bottom: 2rem;
-    font-size:15px;
+    font-size: 15px;
 }
 
 .navbar {
@@ -59,5 +66,63 @@
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+
+/* Dark Mode Options */
+
+.darkbackground {
+    background-color: rgb(46, 45, 49);
+    transition: .15s;
+    color: white;
+}
+
+.nav-link-light {
+    color: #fff;
+}
+
+.darkmodebtn {
+    font-size: 1.50rem;
+    padding: 0.5rem 0.85rem;
+    background-color: rgba(47, 128, 237, 1);
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+}
+
+.darkmodebtn:focus {
+    outline: none;
+}
+
+.fas {
+    line-height: unset;
+}
+
+.navbar-dark .navbar-brand {
+    color: #007bff;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Itim', cursive;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #007bff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 700;
+    margin-left: 1rem;
+    font-size: 1rem;
+    transition: .1s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #007bff;
 }
