@@ -2,7 +2,11 @@ let darkBackground = document.querySelector('body');
 let darkModeBtn = document.getElementById('darkModeBtn');
 let btnIcon = document.getElementById('btnIcon');
 let changeNavbarItem = document.getElementById('navbarDark');
-let codeButton = document.getElementsByClassName('code-btn');
+let grayDocs = document.getElementsByClassName('switchTextToWhite');
+let cardDark = document.getElementsByClassName('cardDark')
+let cardIconWhite = document.getElementsByClassName('card-icon');
+let aboutDark = document.getElementById('about')
+let footerDark = document.getElementById('footer')
 
 darkModeBtn.addEventListener('click', function() {
     darkBackground.classList.toggle('darkbackground');
@@ -10,9 +14,18 @@ darkModeBtn.addEventListener('click', function() {
     btnIcon.classList.toggle('fa-moon');
     changeNavbarItem.classList.toggle('navbar-dark');
     changeNavbarItem.classList.toggle('navbar-light');
-    for (var i = 0, len = codeButton.length; len > i; i++) {
-        codeButton[i].classList.toggle('btn-outline-light');
-        codeButton[i].classList.toggle('btn-outline-dark');
-
+    for (i = 0, len = grayDocs.length; len > i; i++) {
+        grayDocs[i].classList.toggle('home-title-dark');
+        grayDocs[i].classList.toggle('home-title');
     };
+    for (j = 0, jen = cardDark.length; len > j; j++) {
+        cardDark[j].classList.toggle('card-body-dark');
+    };
+    for (i = 0, ken = cardIconWhite.length; ken > i; i++) {
+        cardIconWhite[i].classList.toggle('cardIconWhite');
+    };
+    aboutDark.classList.toggle('aboutBackgroundDark');
+    aboutDark.classList.toggle('about');
+    footerDark.classList.toggle('aboutBackgroundDark');
+    footerDark.classList.toggle('footerDark');
 });
