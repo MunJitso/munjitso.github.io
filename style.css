@@ -1,1 +1,274 @@
-*{list-style: none; text-decoration: none; scroll-behavior: smooth; font-family: monospace;}body{transition: .15s;}section{padding: 7% 10%;}.container{padding: 5px 0 0 0;}/* Banner */#banner{padding: 0 10% 7%;}.navbar{padding-bottom: 3rem;}.navbar-light .navbar-brand{color: #007bff; font-size: 28px; font-weight: 700; letter-spacing: 1px; font-family: 'Itim', cursive;}.navbar-light .navbar-brand:hover{color: #007bff;}.navbar-light .navbar-nav .nav-link{color: #000; font-weight: 700; margin-left: 1rem; font-size: 1rem; transition: .15s;}.navbar-light .navbar-nav .nav-link:hover{color: #007bff;}.title-image{width: 75%; height: 75%; margin: 0 0 40px 70px;}.website{color: #007bff;}.home-title{font-size: 1.25rem; color: #424242; transition: .15s;}.btn-primary{transition: .15s;}.btn-primary:hover{transform: translateY(-3px);}.btn-outline-primary{transition: .15s;}.btn-outline-primary:hover{transform: translateY(-3px);}/* About */.about{transition: .15s; background-color: #f1f4f8;}.heading{padding: 3px; border-bottom: 2px solid #007bff; width: 10rem; margin: 0 0 1.5rem;}.image1{width: 80%; height: 90%;}/* Service */.card{margin: 1rem 0; background-color: transparent; transition: .15s;}.card:hover{background-color: #007bff;}.card-body:hover{filter: invert(1);}.card-title{font-size: 1.25rem; font-weight: 700; margin: 10px 0;}.card p{font-size: 1rem; font-weight: 700;}/* Footer */.footer{background-color: #cfd6d666;}.social-media{margin-bottom: 2rem; font-size: 1rem;}.fab{margin: 5px;}.footer{color: #3f3f3f; font-size: 1rem; font-weight: 700;}.footer a{color: #3f3f3f; transition: .15s;}.footer a:hover{color: #007bff; text-decoration: none;}/* Dark Mode Settings */.darkbackground{background-color: rgb(46, 45, 49); transition: .15s; color: white;}.nav-link-light{color: #fff;}.darkmodebtn{font-size: 1.50rem; padding: 0.5rem 0.85rem; background-color: rgba(47, 128, 237, 1); outline: none; border: 0; border-radius: 20px; color: white; position: fixed; bottom: 18px; right: 18px;}.darkmodebtn:focus{outline: none;}.fas{line-height: unset;}.navbar-dark .navbar-brand{color: #007bff; font-size: 28px; font-weight: 700; letter-spacing: 1px; font-family: 'Itim', cursive;}.navbar-dark .navbar-brand:hover{color: #007bff;}.navbar-dark .navbar-nav .nav-link{color: #fff; font-weight: 700; margin-left: 1rem; font-size: 1rem; transition: .1s ease;}.navbar-dark .navbar-nav .nav-link:hover{color: #007bff;}.home-title-dark{font-size: 1.25rem; color: #fffafa; transition: .15s;}.cardIconWhite{transition: .15s; filter: invert(1);}.card-body-dark:hover{filter: invert(0);}.aboutBackgroundDark{background-color: #44474b;}.footerDark{transition: .15s; color: snow;}.footerDark a{color: snow;}@media (max-width:991px){#banner{text-align: center;}.image1{width: 95%; height: 95%;}.title-image{margin: 0;}}
+* {
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: monospace;
+}
+
+body {
+    transition: .15s;
+}
+
+section {
+    padding: 7% 10%;
+}
+
+.container {
+    padding: 5px 0 0 0;
+}
+
+
+/* Banner */
+
+#banner {
+    padding: 0 10% 7%;
+}
+
+.navbar {
+    padding-bottom: 3rem;
+}
+
+.navbar-light .navbar-brand {
+    color: #007bff;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Itim', cursive;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #007bff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 700;
+    margin-left: 1rem;
+    font-size: 1rem;
+    transition: .15s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.title-image {
+    width: 75%;
+    height: 75%;
+    margin: 0 0 40px 70px;
+}
+
+.website {
+    color: #007bff;
+}
+
+.home-title {
+    font-size: 1.25rem;
+    color: #424242;
+    transition: .15s;
+}
+
+.btn-primary {
+    transition: .15s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+}
+
+.btn-outline-primary {
+    transition: .15s;
+}
+
+.btn-outline-primary:hover {
+    transform: translateY(-3px);
+}
+
+
+/* About */
+
+.about {
+    transition: .15s;
+    background-color: #f1f4f8;
+}
+
+.heading {
+    padding: 3px;
+    border-bottom: 2px solid #007bff;
+    width: 10rem;
+    margin: 0 0 1.5rem;
+}
+
+.image1 {
+    width: 80%;
+    height: 90%;
+}
+
+
+/* Service */
+
+.card {
+    margin: 1rem 0;
+    background-color: transparent;
+    transition: .15s;
+}
+
+.card:hover {
+    background-color: #007bff;
+}
+
+.card-body:hover {
+    filter: invert(1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #cfd6d666;
+}
+
+.social-media {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.fab {
+    margin: 5px;
+}
+
+.footer {
+    color: #3f3f3f;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer a {
+    color: #3f3f3f;
+    transition: .15s;
+}
+
+.footer a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+/* Dark Mode Settings */
+
+.darkbackground {
+    background-color: rgb(46, 45, 49);
+    transition: .15s;
+    color: white;
+}
+
+.nav-link-light {
+    color: #fff;
+}
+
+.darkmodebtn {
+    font-size: 1.50rem;
+    padding: 0.5rem 0.85rem;
+    background-color: rgba(47, 128, 237, 1);
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+}
+
+.darkmodebtn:focus {
+    outline: none;
+}
+
+.fas {
+    line-height: unset;
+}
+
+.navbar-dark .navbar-brand {
+    color: #007bff;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Itim', cursive;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #007bff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 700;
+    margin-left: 1rem;
+    font-size: 1rem;
+    transition: .1s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.home-title-dark {
+    font-size: 1.25rem;
+    color: #fffafa;
+    transition: .15s;
+}
+
+.cardIconWhite {
+    transition: .15s;
+    filter: invert(1);
+}
+
+.card-body-dark:hover {
+    filter: invert(0);
+}
+
+.aboutBackgroundDark {
+    background-color: #44474b;
+}
+
+.footerDark {
+    transition: .15s;
+    color: snow;
+}
+
+.footerDark a {
+    color: snow;
+}
+
+@media (max-width:991px) {
+    #banner {
+        text-align: center;
+    }
+    .image1 {
+        width: 95%;
+        height: 95%;
+    }
+    .title-image {
+        margin: 0;
+    }
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 6px;
+}
