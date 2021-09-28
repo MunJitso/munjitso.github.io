@@ -265,7 +265,7 @@ section {
 
 ::-webkit-scrollbar {
     background-color: transparent;
-    width: 12px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
